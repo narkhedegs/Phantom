@@ -160,6 +160,21 @@ Task("Copy-Files")
 	CopyFiles(GetFiles("./Tests/**/*.dll"), temporaryDirectory);
 	CopyFiles(GetFiles("./Libraries/NuGetPackages/NUnit/**/*.dll"), temporaryDirectory);
 	CopyFiles(GetFiles("./Libraries/NuGetPackages/Moq/**/*.dll"), temporaryDirectory);
+	CopyFiles(GetFiles("./Libraries/NuGetPackages/Whistle/**/*.dll"), temporaryDirectory);
+
+	var dataDirectory = temporaryDirectory + Directory("Data");
+	if(DirectoryExists(dataDirectory))
+	{
+		CleanDirectory(dataDirectory);
+	}
+	else
+	{
+		CreateDirectory(dataDirectory);
+	}
+
+	CopyFiles(GetFiles("./Tests/**/*.exe"), dataDirectory);
+	CopyFiles(GetFiles("./Tests/**/*.txt"), dataDirectory);
+	CopyFiles(GetFiles("./Tests/**/*.js"), dataDirectory);
 });
 
 Task("Run-Unit-Tests")

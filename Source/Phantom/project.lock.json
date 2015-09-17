@@ -2,14 +2,93 @@
   "locked": false,
   "version": 1,
   "targets": {
-    ".NETFramework,Version=v4.5": {},
-    ".NETFramework,Version=v4.5.1": {},
-    ".NETFramework,Version=v4.5.2": {},
-    ".NETFramework,Version=v4.6": {}
+    ".NETFramework,Version=v4.5": {
+      "Whistle/0.0.3": {
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Whistle.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Whistle.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1": {
+      "Whistle/0.0.3": {
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net451/Whistle.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Whistle.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2": {
+      "Whistle/0.0.3": {
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net452/Whistle.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Whistle.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6": {
+      "Whistle/0.0.3": {
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net46/Whistle.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Whistle.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Whistle/0.0.3": {
+      "sha512": "Px0wcfL4hklhE8JMmZHOYdqiYaGWrQG4189J6ChLJGtlPbdp9JW6oLSVFv1lPTYgAAm/eU2CQsMWpILKR+rMEA==",
+      "files": [
+        "lib/net45/Whistle.dll",
+        "lib/net45/Whistle.xml",
+        "lib/net451/Whistle.dll",
+        "lib/net451/Whistle.xml",
+        "lib/net452/Whistle.dll",
+        "lib/net452/Whistle.xml",
+        "lib/net46/Whistle.dll",
+        "lib/net46/Whistle.xml",
+        "Whistle.0.0.3.nupkg",
+        "Whistle.0.0.3.nupkg.sha512",
+        "Whistle.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "": [],
+    "": [
+      "Whistle >= 0.0.3"
+    ],
     ".NETFramework,Version=v4.5": [],
     ".NETFramework,Version=v4.5.1": [],
     ".NETFramework,Version=v4.5.2": [],
