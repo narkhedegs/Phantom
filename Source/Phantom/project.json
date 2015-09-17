@@ -1,0 +1,23 @@
+﻿{
+  "version": "0.0.0",
+  "title": "Phantom",
+  "description": "Phantom is a C# wrapper (process bridge) around PhantomJS.",
+  "authors": [
+    "narkhedegs@gmail.com"
+  ],
+  "owners": [
+    "narkhedegs@gmail.com"
+  ],
+  "copyright": "Copyright (C) narkhedegs@gmail.com",
+  "tags": [ "wrapper", "process", "process bridge", "bridge", "phantomjs" ],
+  "projectUrl": "https://github.com/narkhedegs/Phantom",
+  "licenseUrl": "https://raw.githubusercontent.com/narkhedegs/Phantom/master/LICENSE",
+  "iconUrl": "https://raw.githubusercontent.com/narkhedegs/Phantom/master/phantom.png",
+
+  "frameworks": {
+    "net45": { },
+    "net451": { },
+    "net452": { },
+    "net46": { }
+  }
+}
